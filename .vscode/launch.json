@@ -1,0 +1,144 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 目前檔案",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceRoot}",
+                "DJANGO_SETTINGS_MODULE": "stock.settings",
+            },
+            "justMyCode": false
+        },
+        {
+            "name": "Download stock codes",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/shioaji_app/crawlers/stock_code.py",
+            "django": true,
+            "justMyCode": false
+        },
+        {
+            "name": "Download institution",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/shioaji_app/crawlers/institution.py",
+            "django": true,
+            "justMyCode": false
+        },
+        {
+            "name": "Download Kbar",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}/shioaji_app/stock_kbar.py",
+            "console": "integratedTerminal",
+            "python": "${command:python.interpreterPath}",
+            "env": {
+                "PYTHONPATH": "${workspaceRoot}",
+                "DJANGO_SETTINGS_MODULE": "stock.settings",
+            },
+            "cwd": "${workspaceRoot}",
+            "justMyCode": false
+        },
+        {
+            "name": "Download Kbar Worker",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}/shioaji_app/download_kbar_worker.py",
+            "console": "integratedTerminal",
+            "python": "${command:python.interpreterPath}",
+            "env": {
+                "PYTHONPATH": "${workspaceRoot}",
+                "DJANGO_SETTINGS_MODULE": "stock.settings",
+            },
+            "cwd": "${workspaceRoot}",
+            "justMyCode": false
+        },
+        {
+            "name": "Download Institution Daily Report",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}/shioaji_app/crawlers/institution.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceRoot}",
+                "DJANGO_SETTINGS_MODULE": "stock.settings",
+            },
+            "justMyCode": false
+        },
+        {
+            "name": "Kbar Worker",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}/shioaji_app/kbar_worker.py",
+            "console": "integratedTerminal",
+            "python": "${command:python.interpreterPath}",
+            "env": {
+                "PYTHONPATH": "${workspaceRoot}",
+                "DJANGO_SETTINGS_MODULE": "stock.settings",
+            },
+            "cwd": "${workspaceRoot}",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "runserver",
+                "0.0.0.0:8000",
+            ],
+            "django": true,
+            "justMyCode": true
+        },
+        {
+            "name": "Make Migrations",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "makemigrations"
+            ],
+            "django": true,
+            "justMyCode": true
+        },
+        {
+            "name": "Migrate",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "migrate"
+            ],
+            "django": true,
+            "justMyCode": true
+        },
+        {
+            "name": "Install Data",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "loaddata",
+                "data.json"
+            ],
+            "django": true,
+            "justMyCode": false
+        },
+        {
+            "name": "Generate data",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/shioaji_app/fixtures/generate_data.py",
+            "django": true,
+            "justMyCode": false
+        },
+    ]
+}

@@ -1,0 +1,219 @@
+[
+    {
+        "model": "shioaji_app.industry",
+        "pk": 1,
+        "fields": {
+            "name": "貿易百貨業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 2,
+        "fields": {
+            "name": "生技醫療業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 3,
+        "fields": {
+            "name": "化學工業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 4,
+        "fields": {
+            "name": "塑膠工業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 5,
+        "fields": {
+            "name": "電機機械"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 6,
+        "fields": {
+            "name": "建材營造業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 7,
+        "fields": {
+            "name": "其他電子業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 8,
+        "fields": {
+            "name": "電子零組件業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 9,
+        "fields": {
+            "name": "觀光事業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 10,
+        "fields": {
+            "name": "電腦及週邊設備業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 11,
+        "fields": {
+            "name": "油電燃氣業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 12,
+        "fields": {
+            "name": "金融保險業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 13,
+        "fields": {
+            "name": "食品工業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 14,
+        "fields": {
+            "name": "光電業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 15,
+        "fields": {
+            "name": "鋼鐵工業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 16,
+        "fields": {
+            "name": "通信網路業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 17,
+        "fields": {
+            "name": "半導體業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 18,
+        "fields": {
+            "name": "汽車工業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 19,
+        "fields": {
+            "name": "紡織纖維"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 20,
+        "fields": {
+            "name": "其他業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 21,
+        "fields": {
+            "name": "橡膠工業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 22,
+        "fields": {
+            "name": "電子通路業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 23,
+        "fields": {
+            "name": "航運業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 24,
+        "fields": {
+            "name": "造紙工業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 25,
+        "fields": {
+            "name": "資訊服務業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 26,
+        "fields": {
+            "name": "水泥工業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 27,
+        "fields": {
+            "name": "玻璃陶瓷"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 28,
+        "fields": {
+            "name": "電器電纜"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 29,
+        "fields": {
+            "name": "電子商務"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 30,
+        "fields": {
+            "name": "農業科技業"
+        }
+    },
+    {
+        "model": "shioaji_app.industry",
+        "pk": 31,
+        "fields": {
+            "name": "文化創意業"
+        }
+    }
+]
